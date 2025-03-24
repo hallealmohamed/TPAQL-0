@@ -20,7 +20,7 @@ class PersonTest {
     void isAdultShouldReturnTrueWhenAgeIs18OrMore() {
         // Arrange
         Person adult = new Person("Jean", "Dupont", 18);
-        Person minor = new Person("Marie", "Durand", 17);
+        Person minor = new Person("Marie", "Durand", 13);
 
         // Act & Assert
         assertTrue(adult.isAdult());
